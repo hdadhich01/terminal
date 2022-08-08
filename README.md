@@ -257,7 +257,7 @@ Now obviously you wouldn't want `pre-commit` to run on every single project you 
 ```bash
 pre-commit install
 ```
-Now you can start integrating some [hooks](https://pre-commit.com/hooks.html) you want to use into a `.pre-commit-config.yaml` file that will executed before you commit. If you want contributors for your project, you should check out [pre-commit ci](https://pre-commit.ci/). This basically has the same functionality except that your contributors don't have to care about any of this stuff because it's all handled by the CI server. Check out it's used in this [simple project](https://github.com/hdadhich01/round-nutrition).
+Now you can start integrating some [hooks](https://pre-commit.com/hooks.html) you want to use into a `.pre-commit-config.yaml` file that will executed before you commit. If you want contributors for your project, you should check out [pre-commit ci](https://pre-commit.ci/). This basically has the same functionality except that your contributors don't have to care about any of this stuff because it's all handled by the CI server. Check out its usage in this [simple project](https://github.com/hdadhich01/round-nutrition).
 
 #### 🕧 WakaTime
 Tracking how much time you are spending on your projects each day helps you develop a sense of priority and consistency. You can head over to [WakaTime](https://wakatime.com/) to set up an account.
