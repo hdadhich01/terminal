@@ -124,7 +124,7 @@ The reason we have more plugins in addition to the ones we installed is because 
 
 Once you've saved `.zshrc` and exited the window, you can run the following to reload the shell.
 ```bash
-source ~/.zschrc
+source ~/.zshrc
 ```
 #### 🐍 Python
 Now you have a nice shiny terminal, but you actually install language-specific tools rather than just have it open to make you feel like you'll work at FAANG some day.
