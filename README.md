@@ -159,7 +159,7 @@ Now you can run `python3` and see the latest version installed. However, typing 
 ```bash
 echo "alias py=/usr/bin/python3" >> ~/.zshrc
 echo "alias python=/usr/bin/python3" >> ~/.zshrc
-source ~/.zschrc
+source ~/.zshrc
 ```
 Go ahead and run `py` or `python` for the same results as before.
 
