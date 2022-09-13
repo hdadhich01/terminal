@@ -54,11 +54,11 @@ Now go ahead and reboot your computer. Relax, it's the only time you'll ever hav
 The most popular and beginner-friendly Linux distribution out there, Ubuntu has collaborated with Microsoft to make WSL possible. This is the Linux distribution that we'll be running atop WSL.
 
 ### ⤵️ Install
-Nothing crazy on this one, just install from the [Microsoft Store](https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV). Once finished, enter Ubuntu through the Windows search bar. It'll bring up a terminal and start installing the distribution. 
+Nothing crazy on this one, just install from the [Microsoft Store](https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV). Once finished, enter Ubuntu through the Windows search bar. It'll bring up a terminal and start installing the distribution.
 
 Once finished, launch the app and run its installation course. Then you'll be prompted to enter a username, which you can just set to your Windows username, or whatever you like. Same goes for your password, although it's advisable to keep this the same as your Windows password so you don't have to reach for a sticky note or use your brain every time.
 
-If you can't type out a username, or it's automatically set as `root`, run the following commands in PowerShell (retrieved from [issue](https://github.com/microsoft/WSL/issues/8736)) to briefly reinstall and enter your username. 
+If you can't type out a username, or it's automatically set as `root`, run the following commands in PowerShell (retrieved from [issue](https://github.com/microsoft/WSL/issues/8736)) to briefly reinstall and enter your username.
 ```pwsh
 wsl --unregister Ubuntu
 ubuntu install --ui=none
@@ -266,7 +266,7 @@ Now save it to GitHub [here](https://github.com/settings/keys) by hitting `New G
 #### 🕛 WakaTime
 Tracking how much time you are spending on your projects each day helps you develop a sense of priority and consistency. You can head over to [WakaTime](https://wakatime.com/) to set up an account.
 
-As per the tools we used in this guide, you can set it up for [VS Code](https://wakatime.com/vs-code) and [zsh](https://wakatime.com/terminal). If you've got other editors, check out this [page](https://wakatime.com/plugins) to install their plugin. The instructions are pretty straightforward.
+As per the tools we used in this guide, you can set it up for [VS Code](https://wakatime.com/vs-code) and [zsh](https://wakatime.com/terminal). If you've got other editors, check out this [page](https://wakatime.com/plugins) to install their plugin. Their instructions are pretty straightforward.
 
 ## 🏁 Finish
 Upgrade everything and force reboot your distribution.
