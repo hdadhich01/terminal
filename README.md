@@ -107,6 +107,8 @@ The first command is retrieving the theme from its repository and the following 
 git clone https://github.com/reobin/typewritten.git $ZSH_CUSTOM/themes/typewritten
 ln -s "$ZSH_CUSTOM/themes/typewritten/typewritten.zsh-theme" "$ZSH_CUSTOM/themes/typewritten.zsh-theme"
 ln -s "$ZSH_CUSTOM/themes/typewritten/async.zsh" "$ZSH_CUSTOM/themes/async"
+echo 'TYPEWRITTEN_CURSOR="block"' >> ~/.zshrc
+echo 'TYPEWRITTEN_PROMPT_LAYOUT="singleline_verbose"' >> ~/.zshrc
 ```
 Now we'll install some plugins, stuff that'll make your life easier. Everything except the `echo` and last command fetches a plugin. The echo command sets an alias as `bat` for the plugin's default command, `batcat`. The last one installs tools for [VS Code](#️-visual-studio-code) and opens up a file called `.zshrc`. This is the configuration file that `oh-my-zsh` executes on startup.
 ```bash
