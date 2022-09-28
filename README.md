@@ -1,6 +1,8 @@
 # 📜 Windows Terminal Tutorial
 Learn how to set up a **clean, minimal, and efficient** terminal geared towards **Python development**. This tutorial assumes a [Windows 10](https://www.microsoft.com/en-us/windows/get-windows-10)/[11](https://www.microsoft.com/en-us/windows/get-windows-11) (preferably with the latest update) and a [Visual Studio Code](https://code.visualstudio.com/) installation.
 
+![Cover](images/cover.png)
+
 - [📜 Windows Terminal Tutorial](#-windows-terminal-tutorial)
   - [⌨️ Visual Studio Code](#️-visual-studio-code)
   - [🪟 WSL](#-wsl)
@@ -186,7 +188,6 @@ scoop install neofetch
 scoop install git
 neofetch
 ```
-![Neofetch](https://i.ibb.co/HDyg1N4/Neofetch.jpg)
 
 ## 👁️‍🗨️ Information
 ### 📂 Ubuntu File System
