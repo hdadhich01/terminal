@@ -31,7 +31,7 @@ Learn how to set up a **clean, minimal, and efficient** terminal geared towards 
 
 ## ⌨️ Visual Studio Code
 We will be [Visual Studio Code](https://code.visualstudio.com/), the most popular code editor out today, along with some extensions:
-* [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)- Virtual environment integration with WSL
+* [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) - Virtual environment integration with WSL
 * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - Support extension for the Python language
 
 ## 🪟 WSL
