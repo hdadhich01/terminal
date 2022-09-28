@@ -142,11 +142,11 @@ The latest version of Ubuntu on the Windows Store includes Python `3.10`. You ca
 ```bash
 sudo apt install python3-pip -y
 sudo apt install python3.10-venv -y
+sudo apt install python-is-python3
 ```
-You can make sure you have correctly installed `pip` by running `pip --version`. Now typing out `python3` can get a bit tedious, so let's configure some aliases for your shell to integrate on startup.
+You can make sure you have correctly installed `pip` by running `pip --version`. Typing out `python` can get a bit tedious, so let's configure an alias.
 ```bash
 echo "alias py=/usr/bin/python3" >> ~/.zshrc
-echo "alias python=/usr/bin/python3" >> ~/.zshrc
 source ~/.zshrc
 ```
 Run `py` or `python` to make sure you can enter the REPL. Run `exit()` to hop out.
