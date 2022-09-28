@@ -259,7 +259,7 @@ While generating the key, make sure you select `RSA and RSA`, `4096`, and `0` fo
 ```bash
 gpg --full-generate-key
 ```
-Make sure you select `RSA and RSA`, `4096`, and `0` for the generation prompts. Specify your name and email address to match that of your GitHub account. Once generated, copy the key string between the square brackets:
+Make sure you punch in `1`, `4096`, and `0` for the generation prompts. Specify your name and email address to match that of your GitHub account. Once generated, copy the key string between the square brackets:
 ```
 gpg: key [COPY THIS] marked as ultimately trusted
 ```
