@@ -27,7 +27,7 @@ Learn how to set up a **clean, minimal, and efficient** terminal geared towards 
       - [🖊️ GPG](#️-gpg)
       - [🕛 WakaTime](#-wakatime)
   - [🏁 Finish](#-finish)
-    - [❓ Errors](#-errors)
+    - [⚠️ Errors](#️-errors)
 
 ## ⌨️ Visual Studio Code
 We will be [Visual Studio Code](https://code.visualstudio.com/), the most popular code editor out today, along with some extensions:
@@ -35,10 +35,10 @@ We will be [Visual Studio Code](https://code.visualstudio.com/), the most popula
 * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - Support extension for the Python language
 
 ## 🪟 WSL
-As per the official Microsoft description, "The Windows Subsystem for Linux lets developers run a GNU/Linux environment." Put into simple terms, you can use a Linux environment without waiting an hour for your dual-boot or VM configuration to load or risk your entire drive trying to partition it. Still confused? Check out this [video](https://www.youtube.com/watch?v=-atblwgc63E).
+As per the official Microsoft description, "The Windows Subsystem for Linux lets developers run a GNU/Linux environment." Put into simple terms, you can use a Linux environment without waiting an hour for your dual-boot or VM configuration to load or risk your entire drive trying to partition it. Still confused? Check out [this video](https://www.youtube.com/watch?v=-atblwgc63E).
 
 ### ⤵️ Install
-We'll be using version `2` since it's supposedly faster. You can check out the official [Microsoft Comparison](https://docs.microsoft.com/en-us/windows/wsl/compare-versions) if you care. Install and set the default version with:
+We'll be using version `2` since it's supposedly faster. You can check out the official Microsoft Comparison [here](https://docs.microsoft.com/en-us/windows/wsl/compare-versions). Install and configure with:
 ```pwsh
 wsl --install
 wsl --set-default-version 2
@@ -57,16 +57,15 @@ Now go ahead and reboot your computer. Relax, it's the only time you'll ever hav
 The most popular and beginner-friendly Linux distribution out there, Ubuntu has collaborated with Microsoft to make WSL possible. This is the Linux distribution that we'll be running atop WSL.
 
 ### ⤵️ Install
-Nothing crazy on this one, just install from the [Microsoft Store](https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV). Once finished, enter Ubuntu through the Windows search bar. It'll bring up a terminal and start installing the distribution.
+Nothing crazy on this one, just install Ubuntu from the [Microsoft Store](https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV). Once finished, enter Ubuntu through the <kbd>🪟</kbd>, and it'll bring up a window and start installing the distribution.
 
-Once finished, launch the app and run its installation course. Then you'll be prompted to enter a username, which you can just set to your Windows username, or whatever you like. Same goes for your password, although it's advisable to keep this the same as your Windows password so you don't have to reach for a sticky note or use your brain every time.
+Once finished, launch the app and run its installation course. Then you'll be prompted to enter a username, which you can just set to your Windows username, or whatever you like. Same goes for your password, although it's advisable to keep this the same as your Windows password so you don't have to reach for a sticky note or use your brain every time. Your **keyboard won't output** to the screen while you type out your password, as this is an intentional feature to keep your credentials secure.
 
-If you can't type out a username, or it's automatically set as `root`, run the following commands in PowerShell (retrieved from [issue](https://github.com/microsoft/WSL/issues/8736)) to briefly reinstall and enter your username.
+⚠️ If you can't type out a username, or it's automatically set as `root`, run the following commands in PowerShell (retrieved from [issue](https://github.com/microsoft/WSL/issues/8736)) to briefly reinstall and re-enter a username.
 ```pwsh
 wsl --unregister Ubuntu
 ubuntu install --ui=none
 ```
-Your **keyboard won't output** to the screen while you type out your password, as this is an intentional feature to keep your credentials secure.
 
 ## ▶️ Terminal
 Now you can exit out of that bland default Ubuntu terminal. Go ahead and open up Windows Terminal through <kbd>🪟</kbd>, and pin it to your taskbar. You may have to install it from the [Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) due to what version you're on (specific releases of Windows 10 don't come with it).
@@ -288,7 +287,7 @@ sudo reboot -f
 ```
 You're good to go, welcome to your new development environment.
 
-### ❓ Errors
+### ⚠️ Errors
 You might run into an error where you might have restarted your computer and open up your terminal to see the following layout, wondering where your original layout went. This is the WSL GUI interface, an addition to only WSL2 enabling you to run native Linux apps. If you're interested, check out its functionality [here](https://youtu.be/b1YBx1L8op4).
 ```
 wslg [ ~ ]$
