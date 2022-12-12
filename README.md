@@ -142,7 +142,7 @@ Now you have a nice looking terminal, but you actually need language-specific to
 sudo apt install python3-pip -y
 sudo apt install python3.10-venv -y
 ```
-You can make sure you have correctly installed `pip` by running `pip --V`. Currently, the only way to run Python is by typing out `python3`, which can get a bit tedious, so let's minimize this and reload your session with:
+You can make sure you have correctly installed `pip` by running `pip -V`. Currently, the only way to run Python is by typing out `python3`, which can get a bit tedious, so let's minimize this and reload your session with:
 ```bash
 sudo apt install python-is-python3
 echo "alias py=/usr/bin/python3" >> ~/.zshrc
