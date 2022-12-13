@@ -3,7 +3,7 @@ Learn how to set up a **clean, minimal, and efficient** terminal geared towards 
 
 ![Cover](images/cover.png)
 
-- [📜 Windows Terminal Tutorial](#-windows-terminal-tutorial)
+- [📜 Terminal Tutorial](#-terminal-tutorial)
   - [⌨️ Visual Studio Code](#️-visual-studio-code)
   - [🪟 WSL](#-wsl)
     - [⤵️ Install](#️-install)
@@ -19,7 +19,7 @@ Learn how to set up a **clean, minimal, and efficient** terminal geared towards 
     - [📄 Neofetch](#-neofetch)
   - [👁️‍🗨️ Information](#️️-information)
     - [📂 Ubuntu File System](#-ubuntu-file-system)
-    - [🎨 Change zsh Theme](#-change-zsh-theme)
+    - [🎨 Change Theme](#-change-theme)
     - [🔧 More Tools](#-more-tools)
       - [🎥 asciinema](#-asciinema)
       - [🤖 pipreqs](#-pipreqs)
@@ -276,7 +276,7 @@ Copy (include the header/footer) and save the key to GitHub [here](https://githu
 #### 🕛 WakaTime
 Tracking how much time you are spending on your projects each day helps you develop a sense of priority and consistency. Head over to [WakaTime](https://wakatime.com/) to set up an account.
 
-As per the tools used in this guide, you can set it up for [VS Code](https://wakatime.com/vs-code) and [zsh](https://wakatime.com/terminal). If you've got other editors, check out [this page](https://wakatime.com/plugins) to install their plugin(s). Their instructions are pretty straightforward.
+As per the tools used in this guide, you can set it up for [VS Code](https://wakatime.com/vs-code) and [zsh](https://wakatime.com/terminal). If you've got other editors, check out [this page](https://wakatime.com/plugins) to install their plugin(s).
 
 ## 🏁 Finish
 Upgrade everything and force reboot your distribution.
@@ -296,4 +296,4 @@ To fix this, open up a PowerShell terminal and run:
 wsl --shutdown
 wsl
 ```
-Now you can relaunch your session to restore your original layout.
+Now relaunch your session to restore your original layout.
