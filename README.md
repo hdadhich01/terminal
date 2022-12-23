@@ -5,30 +5,30 @@ Learn how to set up a **clean, minimal, and efficient** terminal geared towards 
 ![Cover](images/cover.png)
 
 - [📜 Terminal](#-terminal)
-  - [⌨️ Visual Studio Code](#️-visual-studio-code)
+  - [⌨️ Visual Studio Code](#%EF%B8%8F-visual-studio-code)
   - [🪟 WSL](#-wsl)
-    - [⤵️ Install](#️-install)
+    - [⤵️ Install](#%EF%B8%8F-install)
     - [💡 Enable](#-enable)
   - [🐧 Ubuntu](#-ubuntu)
-    - [⤵️ Install](#️-install-1)
-  - [▶️ Terminal](#️-terminal)
+    - [⤵️ Install](#%EF%B8%8F-install-1)
+  - [▶️ Terminal](#%EF%B8%8F-terminal)
     - [🏃 Setup](#-setup)
-    - [⚙️ Configuration](#️-configuration)
+    - [⚙️ Configuration](#%EF%B8%8F-configuration)
       - [📜 zsh](#-zsh)
       - [🐍 Python](#-python)
       - [📦 PDM](#-pdm)
     - [📄 Neofetch](#-neofetch)
-  - [👁️‍🗨️ Information](#️️-information)
+  - [👁️‍🗨️ Information](#%EF%B8%8F%EF%B8%8F-information)
     - [📂 Ubuntu File System](#-ubuntu-file-system)
     - [🎨 Change Theme](#-change-theme)
     - [🔧 More Tools](#-more-tools)
       - [🎥 asciinema](#-asciinema)
       - [🤖 pipreqs](#-pipreqs)
       - [🚧 pre-commit](#-pre-commit)
-      - [🖊️ GPG](#️-gpg)
+      - [🖊️ GPG](#%EF%B8%8F-gpg)
       - [🕛 WakaTime](#-wakatime)
   - [🏁 Finish](#-finish)
-    - [⚠️ Errors](#️-errors)
+    - [⚠️ Errors](#%EF%B8%8F-errors)
 
 ## ⌨️ Visual Studio Code
 
@@ -161,7 +161,7 @@ plugins=(copybuffer copypath copyfile dirhistory git jsontools tig web-search zs
 
 The reason we have more plugins in addition to the ones we installed is because `oh-my-zsh` comes with some default ones, which we are simply enabling. You can browse the functionalities of these plugins through these resources: [Article](https://safjan.com/top-popular-zsh-plugins-on-github-2021/) | [Masterlist](https://github.com/unixorn/awesome-zsh-plugins) | [Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
 
-Once you've saved `.zshrc` and exited the window, you can load your changes with:
+Once you've saved `.zshrc`, you can load your changes with:
 
 ```bash
 source ~/.zshrc
