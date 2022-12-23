@@ -1,41 +1,41 @@
-# 📜 Terminal Tutorial
+# 📜 Terminal
 
-Learn how to set up a **clean, minimal, and efficient** terminal geared towards **Python development**. This tutorial assumes a [Windows 10 or 11](https://www.microsoft.com/en-us/software-download/) and a [Visual Studio Code](#%E2%8C%A8%EF%B8%8F-visual-studio-code) installation.
+Learn how to set up a **clean, minimal, and efficient** terminal geared towards **Python** development. This guide assumes a [Windows 10 or 11](https://www.microsoft.com/en-us/software-download/) and a [Visual Studio Code](#%E2%8C%A8%EF%B8%8F-visual-studio-code) installation.
 
 ![Cover](images/cover.png)
 
-- [📜 Terminal Tutorial](#-terminal-tutorial)
-  - [⌨️ Visual Studio Code](#%EF%B8%8F-visual-studio-code)
+- [📜 Terminal](#-terminal)
+  - [⌨️ Visual Studio Code](#️-visual-studio-code)
   - [🪟 WSL](#-wsl)
-    - [⤵️ Install](#%EF%B8%8F-install)
+    - [⤵️ Install](#️-install)
     - [💡 Enable](#-enable)
   - [🐧 Ubuntu](#-ubuntu)
-    - [⤵️ Install](#%EF%B8%8F-install-1)
-  - [▶️ Terminal](#%EF%B8%8F-terminal)
+    - [⤵️ Install](#️-install-1)
+  - [▶️ Terminal](#️-terminal)
     - [🏃 Setup](#-setup)
-    - [⚙️ Configuration](#%EF%B8%8F-configuration)
+    - [⚙️ Configuration](#️-configuration)
       - [📜 zsh](#-zsh)
       - [🐍 Python](#-python)
       - [📦 PDM](#-pdm)
     - [📄 Neofetch](#-neofetch)
-  - [👁️‍🗨️ Information](#%EF%B8%8F%EF%B8%8F-information)
+  - [👁️‍🗨️ Information](#️️-information)
     - [📂 Ubuntu File System](#-ubuntu-file-system)
     - [🎨 Change Theme](#-change-theme)
     - [🔧 More Tools](#-more-tools)
       - [🎥 asciinema](#-asciinema)
       - [🤖 pipreqs](#-pipreqs)
       - [🚧 pre-commit](#-pre-commit)
-      - [🖊️ GPG](#%EF%B8%8F-gpg)
+      - [🖊️ GPG](#️-gpg)
       - [🕛 WakaTime](#-wakatime)
   - [🏁 Finish](#-finish)
-    - [⚠️ Errors](#%EF%B8%8F-errors)
+    - [⚠️ Errors](#️-errors)
 
 ## ⌨️ Visual Studio Code
 
 We will be using [Visual Studio Code](https://code.visualstudio.com/), the most popular code editor out today, along with some extensions:
 
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python): Support extension for Python
 - [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl):  Virtual environment integration with WSL
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python): Support extension for the Python language
 
 ## 🪟 WSL
 
@@ -59,7 +59,7 @@ A simple installation isn't enough, so you'll need to enable a feature to use WS
 - Navigate to `Turn Windows features on or off` through the Windows search bar
 - Enable `Windows Subsystem for Linux` if it isn't already
 
-Now go ahead and reboot your computer. Relax, it's the only time you'll ever have to.
+Now go ahead and reboot your computer.
 
 ## 🐧 Ubuntu
 
@@ -67,7 +67,7 @@ The most popular and beginner-friendly Linux distribution out there, Ubuntu has 
 
 ### ⤵️ Install
 
-Nothing crazy on this one, just install Ubuntu from the [Microsoft Store](https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV). Once finished, enter Ubuntu through the <kbd>🪟</kbd>, and it'll bring up a window and start installing the distribution.
+Install Ubuntu from the [Microsoft Store](https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV). Once finished, enter Ubuntu through the <kbd>🪟</kbd>, and it'll bring up a window and start installing the distribution.
 
 Once finished, launch the app and run its installation course. Then you'll be prompted to enter a username, which you can just set to your Windows username, or whatever you like. Same goes for your password, although it's advisable to keep this the same as your Windows password so you don't have to reach for a sticky note or use your brain every time. Your **keyboard won't output** to the screen while you type out your password, as this is an intentional feature to keep your credentials secure.
 
@@ -97,7 +97,7 @@ Since we don't want PowerShell and the generic color scheme opening up by defaul
   - Again, make sure you hit `Save`
   - Modify however else you desire
 
-Now you can exit out of the entire thing, and re-open it to something that hopefully doesn't look like it belongs to a systems engineer that spends his vacation in the company's server room.
+Now you can exit and re-open it to see the changes.
 
 ### ⚙️ Configuration
 
