@@ -319,8 +319,7 @@ Now you can start integrating some [hooks](https://pre-commit.com/hooks.html) yo
 GPG is an encryption tool that comes packaged with Ubuntu. It helps you verify your commits to ensure that every modification comes from you. Also, it looks more professional when committing to reasonably sized community projects. Configure it for use with:
 
 ```bash
-echo "export GPG_TTY=$(tty)" >> ~/.zshrc
-source ~/.zshrc
+echo "export GPG_TTY=$(tty)" >> ~/.zshrc && source ~/.zshrc
 ```
 
 Before generating the key, make sure you enter `1`, `4096`, `0`, `y`, your name, and your email for the prompts, respectively. Generate a key with:
