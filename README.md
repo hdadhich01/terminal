@@ -382,3 +382,10 @@ wsl
 ```
 
 Now relaunch your session to restore your original layout.
+
+## ToDo
+
+- wslu
+- git all pull
+- git submodule recurse setting
+- subl alias
